@@ -1,0 +1,194 @@
+#header {
+    background-color: #00CCAA;
+    padding: 10px;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading {
+    font-size:35px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+.heading {
+    text-align: center;
+    font-size: 30px;
+    background-color: #0be7b4;
+    width: 100%;
+    color: white;
+    height: 20%;
+    margin-bottom: 5%;
+}
+.main{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.col-sm-2 {
+    font-size: 15px;
+}
+.skill
+{
+    font-weight: bold;
+}
+#enroll
+{
+    background-color: rgb(13, 183, 245);
+    color: white;
+}
+#clear
+{
+    background-color: red;
+    color: white;
+}
+#bottom {
+    text-align: center;
+    width: 100%;
+    background-color: #0be7b4;
+    color: white;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+
+#displayTable {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:30px;
+}
+#OutputTable
+{
+    background-color:yellowgreen;
+    color:white;
+}
+#vertical {
+    border-left: 3px solid #0c0c0c;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    text-align: right;
+}
+
+footer {
+    background-color: #00CCAA;
+    text-align: center;
+    color: white;
+    margin-top: 77px;
+}
+/* CSS for the even and odd enteries*/
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+    padding: 0 0 0 0;
+    font-size: 13px
+}
+tr:nth-child(odd) {
+    padding: 0 0 0 0;
+    font-size:13px;
+}
+
+#image {
+    width: 150px;
+}
+
+#newData {
+    border-color:yellowgreen;
+}
+
+/* Fade in Animation for when a student is enrolled */
+.animated {
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+#errorMsg{
+    color:red;
+}
+
+* {
+    outline: none;
+}
+
+.message {
+    display: inline-block;
+}
+.email-field:focus:invalid + .message::after {
+    color: red;
+    content: "Invalid email address";
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.border-right {
+    border-right: 4px solid rgb(3, 85, 3);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.column2head
+{
+    text-align: center;
+}
+.column1
+{
+    float: left;
+    width: 60%;
+    border: 2px solid rgb(123, 123, 4);
+    background-color:  rgb(179, 179, 43);
+    color: white;
+}
+.column1{
+    float: left;
+    width: 25%;
+    border: 2px solid rgb(123, 123, 4);
+    background-color:  rgb(179, 179, 43);
+    color: white;
+}
+.sec
+{
+    padding-left: 2%;
+}
+.sec1
+{
+    padding-left: 10%;
+}
